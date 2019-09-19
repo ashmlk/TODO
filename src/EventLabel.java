@@ -3,7 +3,6 @@ import java.awt.Font;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.Comparator;
-
 import javax.swing.JLabel;
 
 public class EventLabel extends Home {
@@ -83,7 +82,9 @@ public class EventLabel extends Home {
 	public String getNote() {
 		return this.note;
 	}
-	
+	/*
+	* Creates comparator's for sorting the list of todo's in the application
+	*/
 	public static Comparator<EventLabel> SortByName = new Comparator<EventLabel>() {
 		public int compare(EventLabel l1, EventLabel l2) {
 			return (l1.getName().toUpperCase().compareTo(l1.getName().toUpperCase()));
