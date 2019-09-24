@@ -1,3 +1,8 @@
+/**
+* @author Arshia Malekahmadi 2019
+*
+*/
+
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
